@@ -1,0 +1,695 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.menusectionbg {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 959.5px);
+  background-color: var(--color-gainsboro-100);
+  width: 1919px;
+  height: 155px;
+}
+.healthcare {
+  position: relative;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-inter);
+  color: #1493db;
+  text-align: left;
+}
+.getstartedbg,
+.logo,
+.menubttnbg {
+  position: absolute;
+  background-color: var(--color-gainsboro-100);
+}
+.logo {
+  cursor: pointer;
+  border: 0;
+  padding: 27px 26px;
+  top: 18px;
+  left: 67.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getstartedbg,
+.menubttnbg {
+  top: calc(50% - 77.5px);
+  left: calc(50% - 556px);
+  width: 1112px;
+  height: 155px;
+}
+.getstartedbg {
+  top: calc(50% - 44.5px);
+  left: calc(50% - 166.8px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+  width: 333.6px;
+  height: 89px;
+}
+.getstartedbtn {
+  position: absolute;
+  top: calc(50% - 34.5px);
+  left: calc(50% - 146.21px);
+  font-size: var(--font-size-31xl);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  align-items: center;
+  width: 313.01px;
+  height: 61px;
+}
+.aboutbtn,
+.getstarted,
+.homebtn,
+.servicesbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 42.5px);
+  left: calc(50% + 172.98px);
+  width: 333.6px;
+  height: 89px;
+}
+.aboutbtn,
+.homebtn,
+.servicesbtn {
+  top: calc(50% - 48.5px);
+  left: calc(50% - 499px);
+  font-size: var(--font-size-31xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 160.62px;
+  height: 93px;
+}
+.aboutbtn,
+.servicesbtn {
+  top: calc(50% - 42.5px);
+  left: calc(50% - 291px);
+  width: 172.98px;
+  height: 81px;
+}
+.servicesbtn {
+  top: calc(50% - 38.5px);
+  left: calc(50% - 94.73px);
+  width: 230.64px;
+  height: 73px;
+}
+.menubttnsec {
+  position: absolute;
+  top: calc(50% - 77.5px);
+  left: calc(50% - 152.5px);
+  width: 1112px;
+  height: 155px;
+}
+.navbar {
+  position: relative;
+  width: 1919px;
+  height: 155px;
+}
+.bannersectionbg,
+.formareabg {
+  position: absolute;
+  top: calc(50% - 558px);
+  left: 0;
+  background-color: var(--color-aliceblue-100);
+  width: 1919px;
+  height: 1116px;
+}
+.formareabg {
+  width: 959.5px;
+}
+.find-and-search {
+  margin: 0;
+}
+.suitable-doctors {
+  margin: 0;
+  color: var(--color-cornflowerblue);
+}
+.formtitle-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.formdesc,
+.formtitle {
+  position: absolute;
+  top: calc(50% - 404px);
+  left: 79.96px;
+  display: flex;
+  align-items: center;
+  width: 783.59px;
+  height: 246px;
+}
+.formdesc {
+  top: calc(50% - 158px);
+  left: 67px;
+  font-size: 32px;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: left;
+  width: 878px;
+  height: 132px;
+}
+.formbg,
+.input1bg {
+  position: absolute;
+  top: calc(50% - 68px);
+  left: 0;
+  background-color: var(--color-white);
+  width: 819.5px;
+  height: 136px;
+}
+.input1bg {
+  top: calc(50% - 41px);
+  background-color: var(--color-gainsboro-200);
+  width: 300.54px;
+  height: 82px;
+}
+.doctor-category {
+  border: 0;
+  display: flex;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 21px);
+  left: 24.7px;
+  font-weight: 700;
+  color: var(--color-gray-200);
+  text-align: left;
+  align-items: center;
+  width: 246px;
+  height: 42px;
+}
+.inputcategory,
+.select-area {
+  position: absolute;
+  top: calc(50% - 38px);
+  left: 33.6px;
+  width: 300.54px;
+  height: 82px;
+}
+.select-area {
+  border: 0;
+  display: flex;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  top: calc(50% - 19px);
+  left: 21.55px;
+  font-weight: 700;
+  color: var(--color-gray-100);
+  text-align: left;
+  align-items: center;
+  width: 252px;
+  height: 40px;
+}
+.selectarea {
+  position: absolute;
+  top: calc(50% - 38px);
+  left: 367.75px;
+  width: 300.54px;
+  height: 82px;
+}
+.searchicon {
+  position: relative;
+  width: 59.74px;
+  height: 62px;
+  object-fit: cover;
+}
+.searchbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 16px;
+  background-color: var(--color-black);
+  position: absolute;
+  top: calc(50% - 38px);
+  left: 706.56px;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.searchbtn:active {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.formsearch {
+  position: absolute;
+  top: calc(50% + 30px);
+  left: 67.2px;
+  width: 819.5px;
+  height: 136px;
+}
+.formarea,
+.image-icon {
+  position: absolute;
+  top: calc(50% - 558px);
+  left: 0;
+  width: 959.5px;
+  height: 1116px;
+}
+.image-icon {
+  top: calc(50% - 378px);
+  left: 28px;
+  width: 903.5px;
+  height: 668px;
+  object-fit: cover;
+}
+.bannerimage {
+  position: absolute;
+  top: calc(50% - 558px);
+  left: 959.5px;
+  width: 959.5px;
+  height: 1116px;
+}
+.bannersection {
+  position: relative;
+  width: 1919px;
+  height: 1116px;
+  text-align: center;
+  font-family: var(--font-inter);
+}
+.servicesectionbg {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 960px);
+  background-color: var(--color-aliceblue-100);
+  width: 1920px;
+  height: 648px;
+}
+.consultbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 141.91px;
+  height: 138px;
+}
+.consulticon {
+  position: absolute;
+  top: 20px;
+  left: 23.82px;
+  width: 93.28px;
+  height: 94px;
+  object-fit: cover;
+}
+.consultbox,
+.titleconsult {
+  position: relative;
+  width: 141.91px;
+  height: 138px;
+}
+.titleconsult {
+  font-size: var(--font-size-15xl);
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  text-align: center;
+  justify-content: center;
+  width: 323.51px;
+  height: 58px;
+  flex-shrink: 0;
+}
+.consultsection,
+.descconsult,
+.titleconsult {
+  display: flex;
+  align-items: center;
+}
+.descconsult {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  text-align: center;
+  justify-content: center;
+  width: 507.1px;
+  height: 78px;
+  flex-shrink: 0;
+}
+.consultsection {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 210px;
+  left: calc(50% + 424.9px);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.appointmentbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 145.76px;
+  height: 138px;
+}
+.appointmenticon {
+  position: absolute;
+  top: 29px;
+  left: 24.46px;
+  width: 95.81px;
+  height: 85px;
+  object-fit: cover;
+}
+.appointmentbox {
+  position: relative;
+  width: 145.76px;
+  height: 138px;
+}
+.descappointment,
+.titleappointment {
+  position: relative;
+  font-size: var(--font-size-15xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 293.56px;
+  height: 58px;
+  flex-shrink: 0;
+}
+.descappointment {
+  font-size: var(--font-size-5xl);
+  width: 525.96px;
+  height: 78px;
+}
+.appointmentsection {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 214px;
+  left: calc(50% - 282.96px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.searchbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 154.09px;
+  height: 135.08px;
+}
+.searchicon1 {
+  position: absolute;
+  top: 32.3px;
+  left: 37.72px;
+  width: 77.59px;
+  height: 70.48px;
+  object-fit: cover;
+}
+.searchbox {
+  position: relative;
+  width: 154.09px;
+  height: 135.08px;
+}
+.descsearch,
+.titlesearch {
+  position: relative;
+  font-size: var(--font-size-15xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 310.34px;
+  height: 56.77px;
+  flex-shrink: 0;
+}
+.descsearch {
+  font-size: var(--font-size-5xl);
+  width: 471.98px;
+  height: 76.35px;
+}
+.lbltitlesection3,
+.searchsection {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.searchsection {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 214px;
+  left: calc(50% - 917.98px);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.lbltitlesection3 {
+  top: 37px;
+  left: calc(50% - 469px);
+  width: 985px;
+  height: 102px;
+}
+.servicesection {
+  position: relative;
+  width: 1920px;
+  height: 648px;
+  font-size: 60px;
+}
+.descriptionsectionbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue-100);
+  width: 1919px;
+  height: 696px;
+}
+.docimage-icon {
+  position: absolute;
+  top: 18px;
+  left: 168.94px;
+  width: 776.56px;
+  height: 660px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.dochearticon-child,
+.docintrosectionbg {
+  position: absolute;
+  top: 76.82px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 364.97px;
+  height: 141.18px;
+}
+.dochearticon-child {
+  top: 0;
+  border-radius: 50%;
+  width: 106.39px;
+  height: 105.89px;
+}
+.image-4-icon {
+  position: absolute;
+  top: 12.46px;
+  left: 8.95px;
+  width: 87.49px;
+  height: 93.43px;
+  object-fit: cover;
+}
+.dochearticon {
+  position: absolute;
+  top: 0;
+  left: 137.97px;
+  width: 106.39px;
+  height: 105.89px;
+}
+.docexperience,
+.docname {
+  position: absolute;
+  top: 97.58px;
+  left: 72.19px;
+  display: flex;
+  align-items: center;
+  width: 221.59px;
+  height: 49.83px;
+}
+.docexperience {
+  top: 147.41px;
+  left: 37.1px;
+  font-size: var(--font-size-5xl);
+  width: 290.77px;
+  height: 39.45px;
+}
+.docintrosection {
+  position: absolute;
+  top: 330px;
+  left: 48.53px;
+  width: 364.97px;
+  height: 218px;
+}
+.descriptionareabg,
+.imagearea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 959.5px;
+  height: 696px;
+}
+.descriptionareabg {
+  background-color: var(--color-aliceblue-100);
+}
+.descriptionservices,
+.titleservices {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.titleservices {
+  top: 32px;
+  left: 210.5px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  text-align: center;
+  justify-content: center;
+  width: 596px;
+  height: 160px;
+}
+.descriptionservices {
+  top: 208px;
+  left: 35.5px;
+  font-weight: 500;
+  width: 844px;
+  height: 106px;
+}
+.pointer1bg {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-cornflowerblue);
+  width: 26.48px;
+  height: 27px;
+}
+.lblpointer1 {
+  position: absolute;
+  top: 0;
+  left: 60.06px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 693.55px;
+  height: 31px;
+}
+.pointer1,
+.pointer2bg {
+  position: absolute;
+  top: 348px;
+  left: 56.94px;
+  width: 753.62px;
+  height: 31px;
+}
+.pointer2bg {
+  top: 4px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-cornflowerblue);
+  width: 26.48px;
+  height: 27px;
+}
+.lblpointer2 {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 431px;
+  height: 31px;
+}
+.pointer2,
+.pointer3bg {
+  position: absolute;
+  top: 405px;
+  left: 57px;
+  width: 491px;
+  height: 31px;
+}
+.pointer3bg {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-cornflowerblue);
+  width: 26.48px;
+  height: 27px;
+}
+.lblpointer3 {
+  position: absolute;
+  top: 0;
+  left: 60.19px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 370.31px;
+  height: 31px;
+}
+.descarea,
+.pointer3 {
+  position: absolute;
+  top: 468px;
+  left: 57px;
+  width: 430.5px;
+  height: 31px;
+}
+.descarea {
+  top: 0;
+  left: 959.5px;
+  width: 959.5px;
+  height: 696px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-gray-200);
+}
+.descriptionsection {
+  position: relative;
+  width: 1919px;
+  height: 696px;
+  font-size: var(--font-size-15xl);
+}
+.index1 {
+  position: relative;
+  background-color: #dff0f8;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 70px;
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
