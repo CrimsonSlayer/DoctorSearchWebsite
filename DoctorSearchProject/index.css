@@ -10,7 +10,7 @@
   position: absolute;
   top: 0;
   left: calc(50% - 959.5px);
-  background-color: var(--color-gainsboro-100);
+  background-color: var(--color-gainsboro);
   width: 1919px;
   height: 155px;
 }
@@ -18,19 +18,19 @@
   position: relative;
   font-size: var(--font-size-31xl);
   font-family: var(--font-inter);
-  color: #1493db;
+  color: var(--color-steelblue);
   text-align: left;
 }
 .getstartedbg,
 .logo,
 .menubttnbg {
   position: absolute;
-  background-color: var(--color-gainsboro-100);
+  background-color: var(--color-gainsboro);
 }
 .logo {
   cursor: pointer;
   border: 0;
-  padding: 27px 26px;
+  padding: var(--padding-8xl) var(--padding-7xl);
   top: 18px;
   left: 67.5px;
   display: flex;
@@ -125,7 +125,7 @@
   position: absolute;
   top: calc(50% - 558px);
   left: 0;
-  background-color: var(--color-aliceblue-100);
+  background-color: var(--color-aliceblue);
   width: 1919px;
   height: 1116px;
 }
@@ -174,7 +174,7 @@
 }
 .input1bg {
   top: calc(50% - 41px);
-  background-color: var(--color-gainsboro-200);
+  background-color: var(--color-gainsboro-100);
   width: 300.54px;
   height: 82px;
 }
@@ -288,7 +288,7 @@
   position: absolute;
   top: 0;
   left: calc(50% - 960px);
-  background-color: var(--color-aliceblue-100);
+  background-color: var(--color-aliceblue);
   width: 1920px;
   height: 648px;
 }
@@ -297,7 +297,7 @@
   top: 0;
   left: 0;
   border-radius: 50%;
-  background-color: var(--color-gainsboro-100);
+  background-color: var(--color-gainsboro);
   width: 141.91px;
   height: 138px;
 }
@@ -352,14 +352,14 @@
   left: calc(50% + 424.9px);
   flex-direction: column;
   justify-content: flex-start;
-  gap: 4px;
+  gap: var(--gap-9xs);
 }
 .appointmentbg {
   position: absolute;
   top: 0;
   left: 0;
   border-radius: 50%;
-  background-color: var(--color-gainsboro-100);
+  background-color: var(--color-gainsboro);
   width: 145.76px;
   height: 138px;
 }
@@ -407,21 +407,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 2px;
+  gap: var(--gap-11xs);
 }
 .searchbg {
   position: absolute;
   top: 0;
   left: 0;
   border-radius: 50%;
-  background-color: var(--color-gainsboro-100);
+  background-color: var(--color-gainsboro);
   width: 154.09px;
   height: 135.08px;
 }
 .searchicon1 {
   position: absolute;
   top: 32.3px;
-  left: 37.72px;
+  left: 37.71px;
   width: 77.59px;
   height: 70.48px;
   object-fit: cover;
@@ -450,13 +450,18 @@
   width: 471.98px;
   height: 76.35px;
 }
-.lbltitlesection3,
-.searchsection {
+.lbltitlesection3 {
   position: absolute;
   display: flex;
   align-items: center;
 }
 .searchsection {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.searchsection {
+  float: left;
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -465,7 +470,7 @@
   left: calc(50% - 917.98px);
   flex-direction: column;
   justify-content: flex-start;
-  gap: 5px;
+  gap: var(--gap-8xs);
 }
 .lbltitlesection3 {
   top: 37px;
@@ -483,7 +488,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--color-aliceblue-100);
+  background-color: var(--color-aliceblue);
   width: 1919px;
   height: 696px;
 }
@@ -559,7 +564,7 @@
   height: 696px;
 }
 .descriptionareabg {
-  background-color: var(--color-aliceblue-100);
+  background-color: var(--color-aliceblue);
 }
 .descriptionservices,
 .titleservices {
@@ -679,7 +684,7 @@
 }
 .index1 {
   position: relative;
-  background-color: #dff0f8;
+  background-color: var(--color-aliceblue);
   border: 1px solid var(--color-black);
   box-sizing: border-box;
   width: 100%;

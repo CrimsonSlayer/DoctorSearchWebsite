@@ -13,6 +13,11 @@ $dbpass = "Doctor123+";
 
 $conn = new mysqli($host, $dbuser, $dbpass, $dbname);
 
+//check connection
+if(!$conn){
+    die("Connection Failed: " . mysqli_connect_error());
+  }
+
 $sql = "SELECT * from 'Doctors' where DoctorArea like '%".$search_area."%' and DoctorCategory like '%".$search_param."%'";
 
 $result = $conn->query($sql);

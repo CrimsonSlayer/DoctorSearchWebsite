@@ -5,6 +5,7 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
@@ -27,7 +28,9 @@
             <div class="getstartedbg"></div>
             <b class="getstartedbtn">Get Started</b>
           </button>
+          <a href="https://doctorsearchsite.000webhostapp.com/">
           <button class="homebtn">Home</button>
+          </a>
           <button class="aboutbtn">About</button>
           <button class="servicesbtn">Services</button>
         </div>
@@ -51,6 +54,7 @@
             <div class="inputcategory">
               <div class="input1bg"></div>
               <input
+                id="doctor_type"
                 class="doctor-category"
                 type="text"
                 placeholder="Doctor Category"
@@ -61,6 +65,7 @@
             <div class="selectarea">
               <div class="input1bg"></div>
               <input
+                id="doctor_area"
                 class="select-area"
                 type="text"
                 placeholder="Select Area"
@@ -69,7 +74,7 @@
               />
             </div>
             <button class="searchbtn">
-              <img class="searchicon" alt="" src="./public/searchicon@2x.png" />
+              <img id="search_btn" class="searchicon" alt="" src="./public/searchicon@2x.png" />
             </button>
           </div>
         </div>
@@ -78,7 +83,7 @@
           <img class="image-icon" alt="" src="./public/image@2x.png" />
         </div>
       </div>
-      <div class="servicesection" data-scroll-to="serviceSectionContainer">
+      <div id="search_Section" class="servicesection" data-scroll-to="serviceSectionContainer">
         <div class="servicesectionbg"></div>
         <button class="consultsection">
           <div class="consultbox">
@@ -196,4 +201,19 @@
       }
       </script>
   </body>
+  <script>
+    $(document).ready(function(){
+      $("#search_btn").click(function(){
+        var doctor_type = $("#doctor_type").val();
+        var doctor_area = $("#doctor_area").val();
+
+        $.post("webservice1.php", {search: doctor_type, area: doctor_area}, function(response){
+
+          $("#search_Section").html(response);
+        });
+
+      });
+      
+    });
+  </script>
 </html>
